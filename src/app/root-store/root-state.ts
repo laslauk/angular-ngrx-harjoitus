@@ -4,5 +4,5 @@ import { StarStoreState } from './star-store';
 
 export interface State {
   star: StarStoreState.StarState;
-
+ // otherstates
 }

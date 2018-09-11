@@ -30,3 +30,9 @@ yarn-error.log
 
 # rollup-test output
 /modules/rollup-test/dist/
+/fake-token-api/.jshintrc
+/fake-token-api/app.js
+/fake-token-api/LICENSE
+/fake-token-api/package.json
+/fake-token-api/package-lock.json
+/fake-token-api/README.md

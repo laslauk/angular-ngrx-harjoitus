@@ -11,7 +11,9 @@ import { FormTestComponent } from './form-test/form-test.component';
 
 import { ReactiveFormsModule } from '@angular/forms';
 
-
+import {FormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
+import { AuthService} from '../services/auth.service';
 
 @NgModule({
   declarations: [
@@ -26,8 +28,10 @@ import { ReactiveFormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     CoreRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [AuthService],
 })
 export class CoreModule { }

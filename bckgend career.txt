@@ -1,0 +1,36 @@
+https://medium.com/dev-bits/why-full-stack-development-is-too-good-for-you-in-2017-3fd6fe207b34
+
+
+https://medium.com/tech-tajawal/modern-backend-developer-in-2018-6b3f7b5f8b9
+
+Python, PHP, Node.js + Haskell
+�
+
+Package manager: PHP Composer, Node NPM, Python pip,
+
+Standards:
+
+Caching: App level caching Redis / Memcached
+
+RESTful API
+
+Authentication / Authorization Methodologies
+	- OAUTH, Basic Auth, Token Auth, JWT, OpenID
+
+Message Brokers: RabbiwMQ
+
+Search Engine (kun on iso database ja simple query ei riit�): ElasticSearch / Solr
+
+Docker: Learn this shit
+
+Knowledge of Web servers: Apache, Nginx
+
+Websockets: Learn how to use
+
+GraphQL ja look into Graph Databases
+
+--------
+Extra: Profiling, Static Analysis, DDD, SOAP, Go figure!
+'
+*****
+Opettele: Sessiot, Cookiet, Websockets, WebServices, Cache
