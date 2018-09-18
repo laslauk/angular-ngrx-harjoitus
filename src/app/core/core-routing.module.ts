@@ -8,10 +8,12 @@ import { FormTestComponent } from './form-test/form-test.component';
 
 
 const coreRoutes: Routes = [
-  { path: '', component: HomeComponent, pathMatch: 'full'},
   { path: 'login', component: LoginComponent},
   { path: 'signup', component: SignUpComponent},
-  {path: 'form', component: FormTestComponent}
+  {path: 'form', component: FormTestComponent},
+  { path: '', component: HomeComponent, pathMatch: 'full'},
+  {path: '**', redirectTo: '/'}
+
 ];
 
 @NgModule({

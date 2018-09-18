@@ -6,6 +6,9 @@ import { RootStoreModule } from './root-store';
 
 import { CoreModule } from './core/core.module';
 import { AppRoutingModule } from './app-routing.module';
+import { EffectsModule } from '@ngrx/effects';
+import { AuthEffects } from './core/auth/store/effects/auth.effects';
+import { AuthService } from './services/auth.service';
 
 @NgModule({
   declarations: [
@@ -16,8 +19,10 @@ import { AppRoutingModule } from './app-routing.module';
     RootStoreModule,
     CoreModule,
     AppRoutingModule,
+    EffectsModule.forRoot([AuthEffects]),
+
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
